@@ -101,6 +101,10 @@
 		50F9E8170E1AA34E000E7616 /* ccTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F9E8160E1AA34E000E7616 /* ccTypes.h */; };
 		50FBB2DA117613F500150761 /* CCActionTween.h in Headers */ = {isa = PBXBuildFile; fileRef = 50FBB2D8117613F500150761 /* CCActionTween.h */; };
 		50FBB2DB117613F500150761 /* CCActionTween.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FBB2D9117613F500150761 /* CCActionTween.m */; };
+		8E3C6ADA196C5F4500191977 /* Grid.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3C6AD8196C5F4500191977 /* Grid.h */; };
+		8E3C6ADB196C5F4500191977 /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C6AD9196C5F4500191977 /* Grid.m */; };
+		8E3C6ADE196C5F7900191977 /* Creature.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3C6ADC196C5F7900191977 /* Creature.h */; };
+		8E3C6ADF196C5F7900191977 /* Creature.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C6ADD196C5F7900191977 /* Creature.m */; };
 		926B97F31938606D00E345FB /* CCAnimationManager+FrameAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B97EE1938606D00E345FB /* CCAnimationManager+FrameAnimation.m */; };
 		926B97F41938606D00E345FB /* CCAnimationManager+FrameAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 926B97EF1938606D00E345FB /* CCAnimationManager+FrameAnimation.h */; };
 		926B97F51938606D00E345FB /* CCAnimationManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 926B97F01938606D00E345FB /* CCAnimationManager_Private.h */; };
@@ -422,6 +426,10 @@
 		50F9E8160E1AA34E000E7616 /* ccTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ccTypes.h; sourceTree = "<group>"; };
 		50FBB2D8117613F500150761 /* CCActionTween.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionTween.h; sourceTree = "<group>"; };
 		50FBB2D9117613F500150761 /* CCActionTween.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCActionTween.m; sourceTree = "<group>"; };
+		8E3C6AD8196C5F4500191977 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		8E3C6AD9196C5F4500191977 /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
+		8E3C6ADC196C5F7900191977 /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creature.h; sourceTree = "<group>"; };
+		8E3C6ADD196C5F7900191977 /* Creature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Creature.m; sourceTree = "<group>"; };
 		926B97EE1938606D00E345FB /* CCAnimationManager+FrameAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CCAnimationManager+FrameAnimation.m"; path = "cocos2d-ui/CCBReader/CCAnimationManager+FrameAnimation.m"; sourceTree = "<group>"; };
 		926B97EF1938606D00E345FB /* CCAnimationManager+FrameAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CCAnimationManager+FrameAnimation.h"; path = "cocos2d-ui/CCBReader/CCAnimationManager+FrameAnimation.h"; sourceTree = "<group>"; };
 		926B97F01938606D00E345FB /* CCAnimationManager_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCAnimationManager_Private.h; path = "cocos2d-ui/CCBReader/CCAnimationManager_Private.h"; sourceTree = "<group>"; };
@@ -679,6 +687,10 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				8E3C6AD8196C5F4500191977 /* Grid.h */,
+				8E3C6AD9196C5F4500191977 /* Grid.m */,
+				8E3C6ADC196C5F7900191977 /* Creature.h */,
+				8E3C6ADD196C5F7900191977 /* Creature.m */,
 				A07EC9B2141A8D32008C1F12 /* README.md */,
 				501A7CAC0EBC97BA005BC158 /* AUTHORS */,
 				508A4A2310B47A46004B9CC3 /* RELEASE_NOTES */,
@@ -1376,6 +1388,7 @@
 				50FBB2DA117613F500150761 /* CCActionTween.h in Headers */,
 				B7705FD41831A07B0043CC67 /* OALUtilityActions.h in Headers */,
 				50D898F31192CB7500458C29 /* uthash.h in Headers */,
+				8E3C6ADA196C5F4500191977 /* Grid.h in Headers */,
 				508EAC311193F8B0007F058D /* utlist.h in Headers */,
 				B7705FDE1831A07B0043CC67 /* ObjectAL.h in Headers */,
 				E0C3655B11F0AE9B001C08F9 /* CCSpriteBatchNode.h in Headers */,
@@ -1425,6 +1438,7 @@
 				B798D14D18204BEC00E7BFCD /* CCParticleSystemBase_Private.h in Headers */,
 				B7705FFB1831A07B0043CC67 /* IOSVersion.h in Headers */,
 				A0A7A53C1514F27D00C8BD16 /* CCActionCatmullRom.h in Headers */,
+				8E3C6ADE196C5F7900191977 /* Creature.h in Headers */,
 				B77060091831A07B0043CC67 /* SynthesizeSingleton.h in Headers */,
 				A039EBFF155C686B0061EE37 /* CCNode+Debug.h in Headers */,
 				A0DA0BC315BCDCA200E80A92 /* CCDrawNode.h in Headers */,
@@ -1540,6 +1554,7 @@
 				5018F26C0DFDEAFF00C013A5 /* CCNode.m in Sources */,
 				5018F26E0DFDEAFF00C013A5 /* CCDirector.m in Sources */,
 				5018F2700DFDEAFF00C013A5 /* CCActionInstant.m in Sources */,
+				8E3C6ADB196C5F4500191977 /* Grid.m in Sources */,
 				5018F2720DFDEAFF00C013A5 /* CCActionInterval.m in Sources */,
 				B77060071831A07B0043CC67 /* OALTools.m in Sources */,
 				D33803EA180331A90072D8FE /* CCPhysicsJoint.m in Sources */,
@@ -1596,6 +1611,7 @@
 				D37D197818B6665700B23FDE /* CCTiledMapLayer.m in Sources */,
 				D272032618FC89A000B100FF /* CCEffect.m in Sources */,
 				B7705FF51831A07B0043CC67 /* OpenALManager.m in Sources */,
+				8E3C6ADF196C5F7900191977 /* Creature.m in Sources */,
 				50FBB2DB117613F500150761 /* CCActionTween.m in Sources */,
 				B7705FD71831A07B0043CC67 /* OALAudioTrack.m in Sources */,
 				D37D197B18B6666E00B23FDE /* CCSpriteBatchNode.m in Sources */,
